@@ -48,7 +48,7 @@ public:
         
         
         triangulo(string color,double hipotenusaf,double perimetrof,double areaf,double basef,double alturaf):figura(color)
-        {  //Constructor mandandando a llamar a color de clase padre
+        {  //Constructor mandandando a llamar a color de clase padre/
        hipotenusa=hipotenusaf;
        sen =sin(altura / hipotenusa);
        csen=cos(base/hipotenusa);
