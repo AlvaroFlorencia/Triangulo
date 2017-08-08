@@ -40,7 +40,7 @@ public:
         double hipotenusa;
         double sen;
         double csen;
-        double tan;
+        double tang;
         double perimetro;
         double area;   ///Atributos
         double base;
@@ -52,7 +52,7 @@ public:
        hipotenusa=hipotenusaf;
        sen =sin(altura / hipotenusa);
        csen=cos(base/hipotenusa);
-       tan=tanf;tanf;
+       tang=tan(altura / base);
        perimetro=perimetrof;
        area=areaf; 
        base=basef;
@@ -64,7 +64,7 @@ public:
        hipotenusa=hipotenusaf;
        sen =sin(altura / hipotenusa);
        csen=cos(base/hipotenusa);
-       tan=tanf;tanf;
+       tang= tan(altura / base);
        base=basef;
        altura=alturaf;
        
@@ -101,7 +101,7 @@ public:
       }
         double getTangente()
      {
-	return tan;
+	return tang;
       }
           virtual double CalcularArea(){  //Métodos abstractos
              return (altura*base)/2;}
